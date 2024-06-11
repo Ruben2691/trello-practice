@@ -1,5 +1,37 @@
 /* Your code here */
+.header-nav__container{
+  background-color:#026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  display: flex;
+  width: 100%;
 
+}
+#plus, #info, #alerts {
+  position: relative;
+  left: 1340px;
+  flex-direction: column;
+   align-items:flex-end;
+ }
+ #alerts {
+ background-color: #CF513D;
+ }
+
+ body {
+  font-size: 14px;
+  font-family:'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+ }
+
+ @media screen and (max-width: 730px) {
+  #search{
+    display: none;
+  }
+  /* Hide the header search input field. */
+  /* Hide the "Boards" text, but leave the boards icon. */
+}
 /* Supplied CSS follows. */
 .header-nav__group{
   display: flex;
