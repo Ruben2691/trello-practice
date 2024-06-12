@@ -92,14 +92,53 @@
   display: flex;
   justify-content: space-between;
   float: left;
+  background-size: cover;
+  background-position: center;
 
 }
 
+.board-1 {
+  background-image: url("./board-backgrounds/board-1-background.jpg");
+}
+.board-2 {
+  background-image: url("./board-backgrounds/board-2-background.jpg");
+}
+.board-3 {
+  background-image: url("./board-backgrounds/board-3-background.jpg");
+}
+.board-4 {
+  background-image: url("./board-backgrounds/board-4-background.jpg");
+}
+.board-5 {
+  background-image: url("./board-backgrounds/board-5-background.jpg");
+}
+.board-6 {
+  background-image: url("./board-backgrounds/board-6-background.jpg");
+}
+.board-7 {
+  background-image: url("./board-backgrounds/board-7-background.jpg");
+}
+.board-8 {
+  background-image: url("./board-backgrounds/board-8-background.jpg");
+}
+.board-9 {
+  background-image: url("./board-backgrounds/board-9-background.jpg");
+}
+.board-10 {
+  background-image: url("./board-backgrounds/board-10-background.jpg");
+}
 @media screen and (min-width: 750px) and (max-width: 1280px) {
   .boards__board{
     width: 33%;
   }
   }
+  @media screen and (max-width: 750px){
+    .boards__board{
+      width: 100%;
+      max-width: unset;
+    }
+    }
+
 
  @media screen and (max-width: 500px) {
   .tabbed-nav__group , .tabbed-nav__link{
